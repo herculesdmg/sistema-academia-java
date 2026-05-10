@@ -6,13 +6,11 @@
     <script src="https://cjrtnc.leaningtech.com/3.0/loader.js"></script>
 </head>
 <body style="margin:0; overflow:hidden; background:#222;">
-    <script>
-        // Inicializa o Java no navegador
-        cheerpjInit();
-        // Cria a tela (tamanho padrão de monitor antigo para caber o Swing)
-        cheerpjCreateDisplay(1024, 768);
-        // Tenta rodar o arquivo. O nome TEM que ser igual ao que você subir
-        cheerpjRunJar("classprincipal.jar");
-    </script>
+   <script>
+    cheerpjInit();
+    cheerpjCreateDisplay(1024, 768);
+    // Note as letras maiúsculas em Class e Principal
+    cheerpjRunJar("/app/ClassPrincipal.jar");
+</script>
 </body>
 </html>
