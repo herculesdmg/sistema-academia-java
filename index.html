@@ -5,13 +5,14 @@
     <title>Sistema Academia - Hercules</title>
     <script src="https://cjrtnc.leaningtech.com/3.0/loader.js"></script>
 </head>
-<body>
+<body style="margin:0; overflow:hidden; background:#222;">
     <script>
-        // Inicializa o ambiente Java
+        // Inicializa o Java no navegador
         cheerpjInit();
-        // Carrega o seu arquivo JAR (que deve estar na mesma pasta no GitHub)
-        cheerpjCreateDisplay(800, 600);
-        cheerpjRunJar("/app/classprincipal.jar");
+        // Cria a tela (tamanho padrão de monitor antigo para caber o Swing)
+        cheerpjCreateDisplay(1024, 768);
+        // Tenta rodar o arquivo. O nome TEM que ser igual ao que você subir
+        cheerpjRunJar("/app/ClassPrincipal.jar");
     </script>
 </body>
 </html>
